@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseñador freelancer</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="./app/mensaje.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="titulo"> Isaac Cascante <span>Freelancer</span></h1>
+    </header>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="index.html">Start</a>
+            <a href="https://sacklen09.github.io/curri/">About me - CV</a>
+            <!-- <a href="#">Clientes</a> -->
+            <a href="contacto.html">Contact</a>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>web design and development
+                <span>Freelancer</span></h2>
+            <div class="ubicacion">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                    </svg>
+                    Puriscal, San José</p>
+            </div>
+            <a class="boton" href="numero.html">Phone number</a>
+        </div> <!-- .contenido-hero -->
+    </section>
+
+    <main class="contenedor sombra">
+        <section>
+            <h2>Contact</h2>
+            <form id="contactForm" class="formulario" action="https://formsubmit.co/isaacdcm09@gmail.com" method="POST">
+                <!--<button id="buttonTest">Teest</button> -->
+                <fieldset>
+                    <legend>Contact me </legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label for="nombre">Name:</label>
+                            <input id="nombre" class="input-text" type="text" placeholder="Your name" required>
+                        </div>
+                        <div class="campo">
+                            <label for="telefono">phone:</label>
+                            <input id="telefono" class="input-text" type="tel" placeholder="Your phone number">
+                        </div>
+                        <div class="campo">
+                            <label for="email">Email:</label>
+                            <input id="email" class="input-text" type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="campo">
+                            <label for="mensaje">Message:</label>
+                            <textarea id="mensaje" class="input-text" placeholder="Write your message" required></textarea>
+                        </div>
+                    </div> <!--contenedor-campos-->
+                    <div class="alinear-derecha flex">
+                        <button class="boton w-sm-100" type="submit" value="Enviar" id="enviar">Send</button>
+                    </div>
+                    <div>
+                        <!--mensaje de envio que salga oculto en el formulario-->
+                        <div id="mensaje-envio" class="alerta"></div>
+                        
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>All rights reserved. Isaac Cascante Freelancer</p>
+    </footer>
+
+   
+</body>
+</html>
+
+
