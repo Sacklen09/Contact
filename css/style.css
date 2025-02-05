@@ -281,3 +281,15 @@ border-radius: .5rem;
 .footer a:hover{
     text-decoration: underline;
 }
+
+
+/*mensaje*/
+.gracias{
+text-align: center;
+padding: "20px";
+border: "1px solid black";
+margin-top:   "20px";
+margin-bottom: "20px";
+color: black;
+background-color: white;
+}
