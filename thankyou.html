@@ -11,28 +11,47 @@
     <link href="css/style.css" rel="stylesheet" >
     <script src="./app/mensaje.js" defer></script>
 </head>
-<body>
-    <header>
+<body onload="mensaje()">
+  <header>
+    <h1 class="titulo"> Isaac Cascante <span>Freelancer</span></h1>
   </header>
   <div class="nav-bg">
   <nav class="navegacion-principal contenedor">
+      <a href="index.html">Start</a>
+      <a href="https://sacklen09.github.io/curri/">About me - CV</a>
+       <a href="#">Clientes</a> 
+      <a href="contacto.html">Contact</a> 
       
   </nav>
 </div>
 
   <section class="hero" >
     <div class="contenido-hero">
+        <h2>web design and development
+          <span>Freelancer</span></h2>
     <div class="ubicacion">
-           
+        <p>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+              </svg>
+            Puriscal, San jose</p>
     </div>    
- </div> <!-- .contenido-hero -->
+  <a class="boton" href="numero.html">Phone number</a> 
+ </div> <!-- .contenido-hero  --> 
     
 </section>
     <main class="contenedor sombra">
-       <p class="gracias">Message sent successfully!</p>
+    <h2 class="gracias">Message sent successfully!</h2>
+    <p>You will be redirected to the main page in 3 seconds...</p>
     <div class="servicios">
 
 </main>
+<script> 
+setTimeout(function(){ window.location.href = "index.html"; }, 3000);
+
+</script>
 <footer class="footer">
 <p>All rights reserved. Isaac Cascante Freelancer</p>
 </footer>

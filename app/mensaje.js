@@ -1,13 +1,17 @@
 //limpiar el formulario
-document.getElementById("contactForm").reset();
+//document.getElementById("contactForm").reset();
+
+//usar el unload para redireccionar a otra pagina
+//window.onunload = function() {
+  //window.location.href = "index.html";
+//}
+//esperar 3 segundos para redireccionar
+//setTimeout(function(){
+  //window.location.href = "index.html";
+//}, 3000);
 
 
+  
 
-     //limpiar el formulario
-document.getElementById("contactForm").reset();
-
-   //esperar 3 sgundos para ocultar el mensaje
-   setTimeout(() => {
-     window.location.href = "index.html"; //cambiar a la página de inicio
-   }, 3000);
+   
 
